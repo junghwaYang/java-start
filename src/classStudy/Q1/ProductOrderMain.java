@@ -21,10 +21,11 @@ public class ProductOrderMain {
 
         int totalPricce = 0;
         for (int i = 0; i < products.length; i++) {
-            ProductOrder product = products[i];
-            System.out.println("상품명:" + product.productName + ", 가격:" + product.price + ", 주문 수량:" + product.quantity);
+            System.out.println("상품명:" + products[i].productName + ", 가격:" + products[i].price + ", 주문 수량:" + products[i].quantity);
             totalPricce += products[i].price * products[i].quantity;
         }
         System.out.println("총 결제 금액:" + totalPricce);
+
+
     }
 }
