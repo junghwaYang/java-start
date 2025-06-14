@@ -13,7 +13,7 @@ public class Account {
 //    출금
     void withdraw(int amount){
         System.out.println(amount + "원을 출금 합니다");
-        if(balance > amount) {
+        if(balance >= amount) {
             balance -= amount;
             System.out.println(amount + "원 출금 완료");
         }
