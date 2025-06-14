@@ -21,8 +21,8 @@ public class MethodQ2 {
 
     public static void main(String[] args) {
         print("Hello", 3);
-        print("Hello", 5);
-        print("Hello", 7);
+        print("world", 5);
+        print("안녕", 7);
     }
 
     public static void print(String msg, int times) {
